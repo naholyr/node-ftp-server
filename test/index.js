@@ -1,6 +1,6 @@
 var ftpd = require('..')
 ftpd.fsOptions.root = require('path').resolve(__dirname, 'data')
-ftpd.listen().on('listening', function () {
+ftpd.on('listening', function () {
   var server = this
     , address = server.address()
     , client = require('net').connect(address.port, address.address)
@@ -16,3 +16,4 @@ ftpd.listen().on('listening', function () {
     })
   })
 })
+ftpd.listen()
