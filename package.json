@@ -1,0 +1,20 @@
+{
+  "author": "Nicolas Chambrier <naholyr@gmail.com> (http://naholyr.fr)",
+  "name": "ftp-server",
+  "description": "Featureless FTP server",
+  "version": "0.1.0",
+  "homepage": "https://github.com/naholyr/node-ftp-server",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naholyr/node-ftp-server.git"
+  },
+  "main": "lib/ftpd.js",
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  }
+}
