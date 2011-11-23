@@ -1,0 +1,3 @@
+test/data/*
+!test/data/hello.txt
+node_modules

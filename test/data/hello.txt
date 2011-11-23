@@ -1,1 +1,4 @@
 Hello, world !
+Line 2
+Line 3
+With some «UTF8» chæract€rs
