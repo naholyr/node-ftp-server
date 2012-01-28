@@ -16,5 +16,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "node test"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://raw.github.com/naholyr/node-ftp-server/master/LICENSE"
   }
 }
